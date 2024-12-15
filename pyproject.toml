@@ -6,11 +6,8 @@ authors = ["Michael Lisitsa"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-weasyprint = "60.2"
-# New pydyf not supported with older versions of WeasyPrint
-# see https://github.com/Kozea/WeasyPrint/issues/2203
-pydyf = "0.10"
+python = "^3.9"
+weasyprint = "63.1"
 
 
 [build-system]
