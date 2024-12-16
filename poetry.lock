@@ -497,13 +497,13 @@ test = ["pytest", "ruff"]
 
 [[package]]
 name = "weasyprint"
-version = "60.2"
+version = "62.3"
 description = "The Awesome Document Factory"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.9"
 files = [
-    {file = "weasyprint-60.2-py3-none-any.whl", hash = "sha256:3e98eedcc1c5a14cb310c293c6d59a479f59a13f0d705ff07106482827fa5705"},
-    {file = "weasyprint-60.2.tar.gz", hash = "sha256:0c0cdd617a78699262b80026e67fa1692e3802cfa966395436eeaf6f787dd126"},
+    {file = "weasyprint-62.3-py3-none-any.whl", hash = "sha256:d31048646ce15084e135b33e334a61f526aa68d2f679fcc109ed0e0f5edaed21"},
+    {file = "weasyprint-62.3.tar.gz", hash = "sha256:8d8680d732f7fa0fcbc587692a5a5cb095c3525627066918d6e203cbf42b7fcd"},
 ]
 
 [package.dependencies]
@@ -512,13 +512,13 @@ cssselect2 = ">=0.1"
 fonttools = {version = ">=4.0.0", extras = ["woff"]}
 html5lib = ">=1.1"
 Pillow = ">=9.1.0"
-pydyf = ">=0.8.0"
+pydyf = ">=0.10.0"
 Pyphen = ">=0.9.1"
-tinycss2 = ">=1.0.0"
+tinycss2 = ">=1.3.0"
 
 [package.extras]
 doc = ["sphinx", "sphinx_rtd_theme"]
-test = ["flake8", "isort", "pytest"]
+test = ["pytest", "ruff"]
 
 [[package]]
 name = "webencodings"
@@ -616,5 +616,5 @@ test = ["pytest"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.8"
-content-hash = "22e14c245022a40fd215636179f9a09df87d2260600e2463904eb3256fc5a9ba"
+python-versions = "^3.9"
+content-hash = "27f2013c6a478013a90051432d1ad6b86224a0dfa0b1c32afe71059ded5d8059"
